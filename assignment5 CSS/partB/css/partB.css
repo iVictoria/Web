@@ -1,0 +1,110 @@
+ /* Assignment 05 - Part B */
+ /* task 1 */
+
+html {
+    background-image: url("../images/canada_theme2.jpg");
+    background-size: cover;
+ }
+
+ header {
+     text-align: center;
+ }
+ 
+ /* task 2 */
+ body { 
+     align-content: center;
+     width: 85%;
+     margin: 0 auto;
+ }
+ 
+ /* task 3 */
+ nav {
+    width: 250px;
+    float: left;
+}
+ 
+ /* task 4 */
+ .main {
+    width: 60%; /* width: 600px; */
+    float: left;
+}
+footer {  
+    clear: both; }
+ 
+ /* task 5 */
+ #CA img { 
+     width: 50px; }
+ #CA {
+     font-size: 20pt;
+     font-weight: bold;
+     color: red;
+     position: fixed;
+     right: 10px;
+     top: 10px;
+ }
+ 
+ /* task 6 */
+ .province img {
+     width: 100px;
+ }
+ .province {
+      float: left;
+      width:  220px;
+      height: 200px;
+ }
+ 
+ /* task 7 */
+
+ .province img { 
+     float: left; margin: 5px;
+}
+ 
+ /* task 8 */
+
+ nav ul {
+    list-style-type: none;
+ }
+
+ a {
+    text-decoration: none;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size: 18px;
+ }
+
+ .province {
+    border-radius: 25px;
+    margin: 5px;
+    padding: 2px;
+    text-shadow: -1px -1px silver;
+ }
+
+ #BC, #SK, #NT {
+     border: green 5px solid;
+ }
+
+ #AB, #NS, #QC {
+    border: blue 5px solid;
+ }
+
+ #NB, #MB, #ON {
+    border: red 5px solid;
+ }
+
+ #NL, #PE, #YT, #NU {
+    border: black 5px solid;
+ }
+
+ header {
+    text-shadow: -1px -1px silver;
+    font-family: Arial, Helvetica, sans-serif
+ }
+ 
+ /* task 9 */
+
+ /********************************************************************
+I declare that my assignment is wholly my own work in accordance with Seneca Academic Policy. No part of this assignment has been copied manually or electronically from any other source (including web sites) except for the information supplied by the WEB222 instructors and / or made available in this assignment for my use.
+I also declare that no part of this assignment has been distributed to other students.
+Name:  Victoria Castillo                   
+Dated: 8 December 2017
+********************************************************************/
+ 

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+ <html>
+  <head>
+    <title>Tables</title>
+    <meta charset="UTF-8" />
+	<link rel="stylesheet" href="https://scs.senecac.on.ca/~wei.song/web222/css/normalize.css"/>
+	<link rel="stylesheet" href="https://scs.senecac.on.ca/~wei.song/web222/assignments/assign3.css"/>
+	<style>
+       thead {background-color:lightblue;}
+	   tbody {text-align: center}
+	   tfoot {background-color:lightblue; text-align: center}
+	   table, th, td {border: 1px solid gray;
+}
+    </style>
+</head>
+<body>
+	<header>
+		<h2>WEB222 Assignment 3 - HTML</h2>
+	</header>
+	<nav>
+		<ul>	
+			<li><a href="index.html">Home</a></li>
+			<li><a href="lists.html">List</a></li>
+			<li><a href="tables.html">Table</a></li>
+			<li><a href="images.html">Image</a></li>
+			<li><a href="audio.html">Audio</a></li>
+			<li><a href="video.html">Video</a></li>
+			<li><a href="dom.html">DOM</a></li>
+			<li><a href="honesty.html">Honesty</a></li>
+		</ul>
+	</nav>
+		
+	<section class=main>
+	<!-- Start your code here -->
+		<h2>HTML Tables</h2>
+		<table>
+			<caption>Seneca Campuses and Programs</caption>
+				 <tr>
+					  <th>Jane</th>
+					  <th>King</th>
+					  <th>Markham</th>
+					  <th>Newnham</th>
+					  <th>Seneca@York</th>
+				 </tr>
+				 <tr>
+					  <td>Mechanical Engineering Technician (Tool Design)</td>
+					  <td>911 and Emergency Services Communications</td>
+					  <td>Brand Management</td>
+					  <td>Accounting</td>
+					  <td>3D Animation</td>
+				 </tr>
+				 <tr>
+					 <td>Mechanical Engineering Technology - Industrial Design</td>  
+					 <td>Advanced Investigations and Enforcement</td>
+					 <td>Business - Marketing</td>
+					 <td>Advanced Accounting and Finance</td> 
+					 <td>Bioinformatics</td>   
+				 </tr>
+				 <tr>
+					 <td>Mechanical Techniques (Tool and Die/Mould Making)</td>
+					 <td>Behavioural Sciences</td>
+					 <td>Business Administration - Marketing</td>
+					 <td>Applied Electronics Design</td>
+					 <td>Broadcasting - Radio</td>
+					 
+				 </tr>
+				 <tr>
+					 <td>Mechanical Techniques - CNC Programming</td> 
+					 <td>Child and Youth Care</td>
+					 <td>Creative Advertising</td>
+					 <td>Aviation Operations</td>
+					 <td>Chemical Engineering Technology</td>
+					 
+				 </tr>
+				 <tr>
+					 <td>&nbsp;</td>
+					 <td>Early Childhood Education</td>
+					 <td>Event Marketing - Sports, Entertainment, Arts</td>
+					 <td>Aviation Safety</td>
+					 <td>Computer Programming and Analysis</td>
+				 </tr>
+		  </table>
+		  <hr>
+		  
+		  <table>
+				<caption>Comparison of CPA and CPD Programs</caption>
+				<thead>
+					 <tr>
+						  <th>&nbsp;</th>
+						  <th>&nbsp;Computer Programming and Analysis&nbsp;</th>
+						  <th>&nbsp;Computer Programmer&nbsp;</th>
+					 </tr>
+				</thead>
+				<tbody>
+					 <tr>
+						  <td>Semester 1</td>
+						  <td colspan=2>
+							Introduction to Programming Using C<br>
+							Introduction to UNIX and Linux<br>
+							College English<br>
+							Computer Principles for Programmers<br>
+							Applied Professional Communications</td>
+					 </tr>
+					 <tr>
+						  <td>Semester 2</td>
+						  <td colspan=2>
+							  Introduction to Object-Oriented Programming<br>
+							  Introduction to Database Design and SQL<br>
+							  Web Programming Principles<br>
+							  Data Communications Fundamentals<br>
+							  General Education course
+						  </td>
+					 </tr>
+					 <tr>
+						  <td rowspan=2>Semester 3</td>
+						  <td colspan=2>
+							  Database Design II and SQL Using Oracle<br>
+							  Object-Oriented Software Development Using C++<br>
+								Requirements Gathering Using OO Models<br>
+								Web Programming Tools and Framework<br></td>
+									
+					</tr>
+					<tr>
+						<td>Work Term Preparation</td>
+						<td>General Education course</td></tr>
+					<tr>
+						 <td rowspan=2>Semester 4</td>
+						 <td colspan=2>
+								Business Computing<br>
+								Business Report Writing<br>
+								Introduction to Java for C++ Programmers</td>	
+					</tr>
+					<tr>
+							<td>Analysis and Design Using OO Models<br>
+									Web Programming for Apps and Services</td>
+							<td>Professional Option Course<br>
+							    General Education course</td>
+					</tr>
+					<tr>
+						<td>Semester 5</td>
+						<td>Project Planning and Management<br>
+						    3 Professional Option courses<br>
+					        General Option course</td>
+						<td>-</td>	
+					</tr>
+					<tr>
+						<td>Semester 6</td>	
+						<td>Project Implementation<br>
+						    4 Professional Option courses</td>
+						<td>-</td>	
+					</tr>
+				</tbody>
+				<tfoot>
+					<tr>
+						 <td>&nbsp;</td>
+						 <td>CPA</td>
+						 <td>CPD</td>
+					</tr>
+			   </tfoot>
+		   </table>
+	<!-- End your code here - 2157 -->
+	</section>
+	<footer>
+	  <div class="center">&copy; 2017 Victoria Castillo</div>
+	</footer>
+</body>
+</html>	  
